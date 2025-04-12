@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+.contact{
+    padding-top: 20%;
+
+}
+.hedlinePage{
+  background: none;
+}
+
+
+  
+  .hedlinePagedivContact{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #e5cdcd;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    background: none;
+    top: 0;
+    padding: 1px; /* Optional: Padding for better appearance */
+    z-index: 1000; /* Ensure it stays on top of other elements */
+  }
+
+
+
+  .contactText{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #e5cdcd;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+  }
+
+
+
+  .contactContener {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .contactForm label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
+  .contactForm textarea {
+    resize: none;
+    height: 120px;
+  }
+  
+  .submitButton {
+    background-color: rgba(22, 127, 255, 0.907);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #113ed0;
+  }
+  .linkedin{
+  position: sticky;
+  transition: all 0.9s ease;
+  color: #113ed0;
+  }
+  .linkedin:hover{
+    color: #41e3cb;
+    text-decoration: solid;
+    text-shadow: 3px 3px #2f2cd1;
+    position: sticky !important;
+    width: 300px;
+    background: none;
+  }

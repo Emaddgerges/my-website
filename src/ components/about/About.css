@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+.about{   
+  padding-top: 20%;
+}
+
+.hedlinePagedivAbout{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #e5cdcd;
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+  background: none;
+  top: 0;
+  padding: 1px; /* Optional: Padding for better appearance */
+  z-index: 1000; /* Ensure it stays on top of other elements */
+}
+
+.aboutText{
+  font-size: 1.5rem;
+  font-weight: 10;
+  margin-bottom: 1rem;
+  color: #41e3cb;
+  text-align: center;
+  
+  border-radius: 30px;
+ 
+ 
+}
+
+
+.text{
+    font-size: 1.5rem;
+    font-weight: 10;
+    margin-bottom: 2rem;
+    color: #41e3cb;
+    text-align: center;
+    margin-top: 1rem;
+    
+  
+    padding: 10px;
+    font-family: Montserrat;
+    transition: background-color 1s ease, box-shadow 1s ease, color 2s ease;
+}
+
+
+
+  
+  
+  .text:hover{
+    border: 0px solid rgb(8, 6, 7);
+      border-radius: 30px;
+      box-shadow: 10px 10px 10px 10px rgb(51, 71, 69);
+      color: rgb(154, 157, 243);
+  }
+   
+
+ 

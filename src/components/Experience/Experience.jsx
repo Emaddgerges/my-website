@@ -17,25 +17,25 @@ const Experience = () => {
     </div> 
     <div className='experiencesContener'>
 
-      <div className="experience-item">
-      <a href="https://www.amazon.com" target="_blank" rel="noopener noreferrer" className="experience-link">
+   
 
+    <div className="experience-item">
+    <a href="https://www.amazon.com" target="_blank" rel="noopener noreferrer" className="experience-link">
 
-      <h4 className='company'>Amazon</h4>
-      <h5 className='amazon'>Fulfillment Center Associate (Texas)</h5>
-      <div className='new'>
-      <div> 
-      <p>May 2021 <br></br> Current</p>
-      </div>
-      <div>
-      <p>Utilized problem-solving skills in a fast-paced environment
-        <br></br>Demonstrated strong attention to detail and organizational abilities</p>
-        
-      </div>
-     
-      </div> 
-      </a>
-    </div>  
+    <h4 className='company'>Amazon</h4>
+    <h5 className='amazon'>Fulfillment Center Associate (Texas)</h5>
+    <center className='new'>
+    <div> 
+    <p>May 2021 <br></br> Current</p>
+    </div>
+    <div>
+    <p>Utilized problem-solving skills in a fast-paced environment
+      <br></br>Demonstrated strong attention to detail and organizational abilities</p>
+    </div>
+    </center> 
+    </a>
+  </div>
+
       <div className="experience-item">
         <h4 className='company'>Business Owner </h4>
         <h5 className='amazon'>Al Raaei  (cairo, Egypt)</h5>

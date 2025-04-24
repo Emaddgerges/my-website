@@ -1,4 +1,4 @@
-import "./Portfolio.css"
+import './Port.css'
 
 const Port = () => {
 

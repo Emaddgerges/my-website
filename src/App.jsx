@@ -4,11 +4,11 @@
 import { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Portfolio from './ components/Portfolio/Portfolio';
-import About from './ components/about/About';
-import Experience from './ components/Experience/Experience';
-import Nav from './ components/myHome/Nav';
-import { Contact } from './ components/contact/Contact';
+import Portfolio from './components/port/Portfolio';
+import About from './components/about/About';
+import Experience from './components/Experience/Experience';
+import Nav from './components/myHome/Nav';
+import { Contact } from './components/contact/Contact';
 
 
 

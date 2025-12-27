@@ -9,8 +9,8 @@ const Port = () => {
       <h3 className='hedlinePage'>My Portphalio</h3>
       </div> 
         <div className="experience-item">
-        <h4 className='company'>Amazon</h4>
-        <h5 className='amazon'>Fulfillment Center Associate (Texas)</h5>
+        <h4 className='company'>Fulfillment Center Associate (Texas)</h4>
+        <h5 className='amazon'>Amazon</h5>
         <center className='new'>
         <div> 
         <p>May 2021 <br></br> Current</p>

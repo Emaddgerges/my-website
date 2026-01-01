@@ -3,9 +3,13 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import "./contact.css";
+//import REACT_APP_EMAILJS_SERVICE_ID from '../../.env';
+// import REACT_APP_EMAILJS_TEMPLATE_ID from '../../.env';
+// import REACT_APP_EMAILJS_PUBLIC_KEY from '../../.env';
 
 
 export const Contact = () => {
+  
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -16,6 +20,7 @@ export const Contact = () => {
         form.current,
         'gh5udUznGdDlydkM3' // EmailJS User ID
        )
+
       .then(
         (result) => {
           alert('Message sent successfully!');

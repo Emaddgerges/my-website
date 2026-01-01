@@ -5,7 +5,7 @@ const Nav =() => {
 
 
     return (
-      <>
+      <div>
         
         <div className="myHomeContener" id="myHomeContener" >
         <div className="row">
@@ -17,7 +17,7 @@ const Nav =() => {
         </ol>
         </div>
         </div>
-        </>
+        </div>
       )
   }
       export default Nav;

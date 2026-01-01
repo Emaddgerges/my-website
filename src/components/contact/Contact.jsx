@@ -41,13 +41,13 @@ export const Contact = () => {
      </div>
     <div className="contactContener">
       <form ref={form} onSubmit={sendEmail} className="contactForm">
-        <label>Name</label>
+        <label className="label">Name</label>
         <input type="text" name="user_name" placeholder="Your Name" required />
 
-        <label>Email</label>
+        <label className="label">Email</label>
         <input type="email" name="user_email" placeholder="Your Email" required />
 
-        <label>Message</label>
+        <label className="label">Message</label>
         <textarea name="message" placeholder="Your Message" required />
 
         <button type="submit" className="submitButton">Send</button>

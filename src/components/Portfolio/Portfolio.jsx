@@ -10,9 +10,7 @@ const Portfolio = () => {
      <div className='hedlinePagedivExperience'>
       <h3 className='hedlinePage'>My Projects</h3>
      </div>
-    {/* <div className='hedlinePagedivExperience'>
-      <h3 className='hedlinePage'>My Projects</h3>
-     </div>*/}
+    
 
       
       <PortfolioTemplet id="1" className="experienceTem-item"

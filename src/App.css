@@ -146,8 +146,6 @@
   }
   .info.shrink {
     transform: scale(0.7); /* Shrinks the info section */
-    font-size: 1rem; /* Adjust font size */
-    opacity: 0; /* Optional: Slightly fade the content */
-    position: fixed !important; 
-  }
+    opacity: 0; /* Optional: Slightly fade the content */  }
+   
  }

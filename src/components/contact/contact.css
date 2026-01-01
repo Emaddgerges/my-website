@@ -5,15 +5,12 @@
 }
 
 .contact{
-    padding-top: 20%;
-
+    padding-top: 9%;
 }
+
 .hedlinePage{
   background: none;
 }
-
-
-  
   .hedlinePagedivContact{
     font-size: 2.5rem;
     font-weight: 700;
@@ -27,24 +24,23 @@
     z-index: 1000; /* Ensure it stays on top of other elements */
   }
 
-
-
   .contactText{
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 500;
     color: #e5cdcd;
     text-align: center;
     margin-top: 50px;
     width: 100%;
   }
-
-
-
+  
   .contactContener {
     text-align: center;
     padding: 20px;
   }
-  
+
+  a{
+    margin-left: 1rem;
+  }
   .contactForm {
     display: flex;
     flex-direction: column;
@@ -53,14 +49,13 @@
     max-width: 400px;
     margin: 0 auto;
   }
-  
+
   .contactForm label {
     font-size: 1rem;
     font-weight: bold;
   }
-  
-  .contactForm input,
-  .contactForm textarea {
+
+  .contactForm input, .contactForm textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -88,11 +83,13 @@
   .submitButton:hover {
     background-color: #113ed0;
   }
+
   .linkedin{
   position: sticky;
   transition: all 0.9s ease;
   color: #113ed0;
   }
+
   .linkedin:hover{
     color: #41e3cb;
     text-decoration: solid;
@@ -101,3 +98,10 @@
     width: 300px;
     background: none;
   }
+
+  @media  (max-width: 820px) {
+  .contact{
+    padding-top: 20%;
+    
+  }
+ }

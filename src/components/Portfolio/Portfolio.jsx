@@ -22,21 +22,21 @@ const Portfolio = () => {
                          description="Created a functional mock e-commerce website using React.js, HTML, CSS, and JavaScript"/>
                         
       <PortfolioTemplet id="2" className="experienceTem-item"
-                         projectName="Jepardy Game" 
-                         PICC="Jepardy Game"
+                         projectName="Jeopardy Game" 
+                         PICC="Jeopardy Game"
                          projectrLink="https://egjeopardy.netlify.app" 
                          description="Created a website that function as a game using HTML CSS Javascript."/>
                         
       <PortfolioTemplet id="3" className="experienceTem-item"
                          projectName="Meme Generator" 
                          PICC="Meme Generator"
-                         projectrLink="https://egjeopardy.netlify.app" 
+                         projectrLink="https://eg-memegenerator.netlify.app" 
                          description="Create web site using HTML, CSS, and Javascript to allow users to enter text and an image, then creating their meme"/>
                         
       <PortfolioTemplet id="4" className="experienceTem-item"
                          projectName="To Do App" 
                          PICC="To Do App"
-                         projectrLink="https://egjeopardy.netlify.app" 
+                         projectrLink="https://todoappemad.netlify.app" 
                          description="A personal portfolio website to showcase my projects and skills, built using React.js and hosted on GitHub Pages."/>
                                            
      
